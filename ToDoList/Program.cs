@@ -29,7 +29,7 @@ namespace ToDoList.UI
           if (result.Count == 0)
           {
             Console.WriteLine("You haven't added anything to your list yet");
-            Console.WriteLine()
+            Console.WriteLine(" ------------------------- ");
           }
           else
           {
