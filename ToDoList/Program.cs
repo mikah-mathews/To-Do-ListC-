@@ -28,7 +28,7 @@ namespace ToDoList.UI
           List<Item> result = Item.GetAll();
           if (result.Count == 0)
           {
-            Console.WriteLine("You haven't added anything to your list yet");
+            Console.WriteLine("You haven't added anything to your list yet.");
             Console.WriteLine(" ------------------------- ");
           }
           else
